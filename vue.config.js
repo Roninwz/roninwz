@@ -66,6 +66,7 @@ module.exports = {
     }
   },
   publicPath: './',
+  outputDir: "docs", // 修改打包后的输出文件夹
   lintOnSave: false, // 关闭eslint
   chainWebpack: config => {
     config.module.rule('md')
