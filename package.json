@@ -1,6 +1,7 @@
 {
   "name": "roninwz-ui",
-  "version": "0.0.4",
+  "version": "0.0.6",
+  "description": "自定义适用于vue的ui组件库",
   "private": false,
   "main": "lib/tag-textarea.umd.min.js",
   "scripts": {
@@ -30,9 +31,9 @@
     "gulp-autoprefixer": "^6.0.0",
     "gulp-cssmin": "^0.2.0",
     "gulp-sass": "^4.0.2",
-    "sass-loader": "^7.1.0",
     "node-sass": "^4.11.0",
     "sass": "^1.35.2",
+    "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -53,5 +54,6 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "gitHead": "cca6256fa1d38bef3a62788d229921b745b926d3"
 }
