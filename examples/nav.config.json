@@ -23,7 +23,7 @@
   ],
   "组件": [
     {
-      "desc": "导航",
+      "desc": "自定义组件",
       "path": "/component",
       "items": [
         {
@@ -37,6 +37,30 @@
           "name": "button",
           "path": "/component/button",
           "type": "components"
+        }
+      ]
+    },
+    {
+      "desc": "基于element组件",
+      "path": "/element",
+      "items": [
+        {
+          "desc": "dialog 弹窗",
+          "name": "dialog",
+          "path": "/element/dialog",
+          "type": "element"
+        }
+      ]
+    },
+    {
+      "desc": "基于vant组件",
+      "path": "/vant",
+      "items": [
+        {
+          "desc": "vant 地址选择器",
+          "name": "address",
+          "path": "/vant/address",
+          "type": "vant"
         }
       ]
     }

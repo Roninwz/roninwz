@@ -1,100 +1,123 @@
 section {
-  color: #3f536e;
   font-size: 14px;
-  .demo-block{
+  color: #3f536e;
+
+  .demo-block {
     padding: 32px;
+    margin-top: 16px;
+    background-color: #fff;
     border: 1px solid #e2ecf4;
     border-radius: 4px 4px 0 0;
-    background-color: #fff;
-    margin-top: 16px;
   }
+
   .docs-demo-wrapper {
-    border-left: 1px solid #e2ecf4;
-    border-bottom: 1px solid #e2ecf4;
     border-right: 1px solid #e2ecf4;
+    border-bottom: 1px solid #e2ecf4;
+    border-left: 1px solid #e2ecf4;
     border-radius: 0 0 4px 4px;
   }
+
   hr {
     margin: 1.2em 0;
     border: 0;
-    border-bottom: 1px solid #C5D9E8;
+    border-bottom: 1px solid #c5d9e8;
   }
+
   p {
     padding: 0;
+    font-size: 14px;
     line-height: 1.7;
     color: #3f536e;
-    font-size: 14px;
   }
+
   h1 {
     font-size: 24px;
   }
-  h1,h2,h3,h4,h5{
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     margin: 16px 0;
     line-height: 1.5;
   }
+
   h2 {
     font-size: 18px;
   }
+
   ul {
-    margin: 16px 0;
     padding-left: 24px;
+    margin: 16px 0;
     list-style: disc;
+
     li {
       line-height: 1.8;
     }
   }
+
   pre {
-    margin: 16px 0;
     padding: 16px;
-    background-color: #F7F7F7;
+    margin: 16px 0;
     overflow: auto;
+    background-color: #f7f7f7;
+
     code {
       padding: 0;
       font-size: 1em;
+      background-color: transparent;
       border: none;
       border-radius: 0;
-      background-color: transparent;
     }
   }
+
   code {
-    padding: .3em .5em;
-    font-size: .9em;
+    padding: 0.3em 0.5em;
+    font-size: 0.9em;
     vertical-align: middle;
-    border: 1px solid #ECECEC;
+    background-color: #f7f7f7;
+    border: 1px solid #ececec;
     border-radius: 2px;
-    background-color: #F7F7F7;
   }
+
   code.code_inline {
-    padding: 0 .5em;
+    padding: 0 0.5em;
   }
+
   img {
     vertical-align: middle;
   }
-  p+p {
+
+  p + p {
     margin-top: 8px;
   }
+
   a {
     color: #6190e8;
   }
+
   table.table {
     display: block;
     width: 100%;
-    background-color: #fff;
-    color: #5e6d82;
-    font-size: 14px;
-    border-collapse: collapse;
-    overflow: auto;
     margin-bottom: 50px;
+    overflow: auto;
+    font-size: 14px;
+    color: #5e6d82;
+    background-color: #fff;
+    border-collapse: collapse;
+
     th {
-      border-top: 1px solid #f3f7fa;
-      background-color: #FAFBFC;
-      border-bottom: 1px solid #f3f7fa;
       padding: 10px 8px;
+      background-color: #fafbfc;
+      border-top: 1px solid #f3f7fa;
+      border-bottom: 1px solid #f3f7fa;
     }
-    td{
+
+    td {
+      padding: 10px 8px;
       border-top: 1px solid #f3f7fa;
       border-bottom: 1px solid #f3f7fa;
-      padding: 10px 8px;
     }
   }
 }

@@ -1,11 +1,12 @@
 {
   "name": "roninwz-ui",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "自定义适用于vue的ui组件库",
   "private": false,
   "main": "lib/tag-textarea.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "lib": "vue-cli-service build --target lib --name tag-textarea --dest lib src/index.js",
     "build:theme": "gulp build --gulpfile src/style/gulpfile.js",
     "build": "vue-cli-service build",
@@ -14,7 +15,9 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.5",
     "markdown-it-container": "^3.0.0",
+    "vant": "^2.12.25",
     "vue": "^2.6.11",
     "vue-markdown-loader": "^2.4.1",
     "vue-router": "^3.5.2"

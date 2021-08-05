@@ -26,6 +26,16 @@ let addComponent = (router) => {
           r(require(`../docs/components/${route.name}.md`)))
         return
       }
+      if (route.type === 'element') {
+        route.component = r => require.ensure([], () =>
+          r(require(`../docs/element/${route.name}.md`)))
+        return
+      }
+      if (route.type === 'vant') {
+        route.component = r => require.ensure([], () =>
+          r(require(`../docs/vant/${route.name}.md`)))
+        return
+      }
       route.component = r => require.ensure([], () =>
         r(require(`../docs/${route.name}.md`)))
     }
