@@ -26,18 +26,20 @@ export default {
 <style lang="scss">
   .skeleton-container {
     width: 960px;
+    padding: 100px 0;
     margin: 0 auto;
     text-align: center;
-    padding: 100px 0;
   }
+
   .skeleton-bottom {
     width: 960px;
     margin: 0 auto;
     text-align: center;
   }
+
   .skeleton {
-    margin: 0 auto;
     width: 300px;
+    margin: 0 auto;
     margin-bottom: 56px;
   }
 </style>

@@ -1,50 +1,57 @@
 <style lang="scss" type="text/scss">
-  .side-nav{
-    display: inline-block;
-    margin: 32px 0;
-    padding: 0;
-    color: #3F536E;
-    background-color: #fff;
+  .side-nav {
     z-index: 99;
-    .group-container{
+    display: inline-block;
+    padding: 0;
+    margin: 32px 0;
+    color: #3f536e;
+    background-color: #fff;
+
+    .group-container {
       margin-bottom: 32px;
     }
-    .side-nav-title{
+
+    .side-nav-title {
       padding: 0 24px 8px;
-      color: #8DABC4;
       font-size: 12px;
       font-weight: bold;
       letter-spacing: 1px;
+      color: #8dabc4;
       text-transform: uppercase;
     }
-    .side-nav-items{
+
+    .side-nav-items {
       font-size: 14px;
       font-weight: normal;
       line-height: 1.8;
-      a{
-        display: block;
+
+      a {
         position: relative;
+        display: block;
         padding: 8px 24px;
-        color: #3F536E;
         font-weight: normal;
         line-height: 1.5;
+        color: #3f536e;
         cursor: pointer;
       }
-      .side-nav-group{
-        display: block;
+
+      .side-nav-group {
         position: relative;
+        display: block;
         padding: 6px 0 6px 24px;
-        color: #2C405A;
         font-weight: bold;
+        color: #2c405a;
       }
-      .slid-nav-component{
-        display: block;
+
+      .slid-nav-component {
         position: relative;
+        display: block;
         padding: 6px 24px 6px 32px;
-        color: #616367;
         font-size: 14px;
+        color: #616367;
       }
-      .active{
+
+      .active {
         color: #f98b6f;
       }
     }

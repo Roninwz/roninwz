@@ -25,43 +25,48 @@ export default {
   .pg-index {
     .index-container {
       width: 960px;
+      padding: 100px 0;
       margin: 0 auto;
       text-align: center;
-      padding: 100px 0;
-      p{
+
+      p {
         margin-top: 56px;
-        color: #f98b6f;
         font-size: 32px;
+        color: #f98b6f;
       }
     }
-    .separate-panel{
+
+    .separate-panel {
       position: relative;
-      .about{
+
+      .about {
         position: absolute;
-        width: 100%;
-        height: 200px;
         top: 20px;
         z-index: 9;
-        background: #fff;
+        width: 100%;
+        height: 200px;
         text-align: center;
+        background: #fff;
+
         a {
-          color: #fff;
-          background-image: linear-gradient(90deg, #fdc3c3 0%, #f98b6f 100%);
-          box-shadow: 0 2px 6px 0 rgba(51,105,231,0.4);
           display: inline-block;
           width: 190px;
           height: 56px;
           margin: 0 35px;
           font-size: 18px;
           line-height: 56px;
-          border-radius: 28px;
-          transition: all .3s;
+          color: #fff;
           cursor: pointer;
+          background-image: linear-gradient(90deg, #fdc3c3 0%, #f98b6f 100%);
+          border-radius: 28px;
+          box-shadow: 0 2px 6px 0 rgba(51, 105, 231, 0.4);
+          transition: all 0.3s;
         }
-        .btn-github{
+
+        .btn-github {
           color: #f98b6f;
-          border: 1px solid #f98b6f;
           background: #fff;
+          border: 1px solid #f98b6f;
           box-shadow: none;
         }
       }

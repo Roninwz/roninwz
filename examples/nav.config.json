@@ -27,6 +27,18 @@
       "path": "/component",
       "items": [
         {
+          "desc": "Video 视频播放器",
+          "name": "video",
+          "path": "/component/video",
+          "type": "components"
+        },
+        {
+          "desc": "Svg",
+          "name": "svg",
+          "path": "/component/svg",
+          "type": "components"
+        },
+        {
           "desc": "Tabs 标签页",
           "name": "tabs",
           "path": "/component/tabs",
