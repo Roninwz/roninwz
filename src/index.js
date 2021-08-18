@@ -12,6 +12,7 @@ import EL2Dialog from '../packages/element/dialog';
 
 // 导入基于vant二次开发的组件
 import Van2Address from '../packages/vant/address';
+import Van2Ruler from '../packages/vant/ruler';
 
 const components = [
   Svg,
@@ -22,7 +23,8 @@ const components = [
   // element二次封装组件
   EL2Dialog,
   // vant二次封装组件
-  Van2Address
+  Van2Address,
+  Van2Ruler
 ];
 
 const install = function (Vue, opts = {}) {
@@ -48,4 +50,5 @@ export default {
   TabPane,
   EL2Dialog,
   Van2Address,
+  Van2Ruler
 };

@@ -13,7 +13,7 @@
     :show="show"
     @close="$emit('update:show', false)"
   >
-    <!-- 弹窗中奖部分用插槽实现 -->
+    <!-- 弹窗中间部分用插槽实现 -->
     <slot></slot>
     <!-- 弹窗底部内容 -->
     <div slot="footer" class="dialog-footer">

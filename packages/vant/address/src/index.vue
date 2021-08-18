@@ -76,8 +76,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-.picker {
-}
-</style>

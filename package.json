@@ -17,6 +17,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.10",
     "core-js": "^3.6.5",
+    "cs-ruler": "^2.1.5",
     "element-ui": "^2.15.5",
     "markdown-it-container": "^3.0.0",
     "vant": "^2.12.25",

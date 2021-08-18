@@ -57,7 +57,7 @@
       "path": "/element",
       "items": [
         {
-          "desc": "dialog 弹窗",
+          "desc": "Dialog 弹窗",
           "name": "dialog",
           "path": "/element/dialog",
           "type": "element"
@@ -69,9 +69,15 @@
       "path": "/vant",
       "items": [
         {
-          "desc": "vant 地址选择器",
+          "desc": "Address 地址选择器",
           "name": "address",
           "path": "/vant/address",
+          "type": "vant"
+        },
+        {
+          "desc": "Ruler 尺子选择器",
+          "name": "ruler",
+          "path": "/vant/ruler",
           "type": "vant"
         }
       ]

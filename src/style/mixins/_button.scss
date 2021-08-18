@@ -1,4 +1,5 @@
 @import "../common/var";
+
 @mixin button-plain($color) {
   color: $color;
   background: mix($--color-white, $color, 90%);
@@ -6,15 +7,15 @@
 
   &:hover,
   &:focus {
+    color: $--color-white;
     background: $color;
     border-color: $color;
-    color: $--color-white;
   }
 
   &:active {
+    color: $--color-white;
     background: mix($--color-black, $color, $--button-active-shade-percent);
     border-color: mix($--color-black, $color, $--button-active-shade-percent);
-    color: $--color-white;
     outline: none;
   }
 
@@ -37,22 +38,46 @@
 
   &:hover,
   &:focus {
-    background: mix($--color-white, $background-color, $--button-hover-tint-percent);
-    border-color: mix($--color-white, $border-color, $--button-hover-tint-percent);
     color: $color;
+    background: mix(
+      $--color-white,
+      $background-color,
+      $--button-hover-tint-percent
+    );
+    border-color: mix(
+      $--color-white,
+      $border-color,
+      $--button-hover-tint-percent
+    );
   }
-  
+
   &:active {
-    background: mix($--color-black, $background-color, $--button-active-shade-percent);
-    border-color: mix($--color-black, $border-color, $--button-active-shade-percent);
     color: $color;
+    background: mix(
+      $--color-black,
+      $background-color,
+      $--button-active-shade-percent
+    );
+    border-color: mix(
+      $--color-black,
+      $border-color,
+      $--button-active-shade-percent
+    );
     outline: none;
   }
 
   &.is-active {
-    background: mix($--color-black, $background-color, $--button-active-shade-percent);
-    border-color: mix($--color-black, $border-color, $--button-active-shade-percent);
     color: $color;
+    background: mix(
+      $--color-black,
+      $background-color,
+      $--button-active-shade-percent
+    );
+    border-color: mix(
+      $--color-black,
+      $border-color,
+      $--button-active-shade-percent
+    );
   }
 
   &.is-disabled {
@@ -71,10 +96,16 @@
   }
 }
 
-@mixin button-size($padding-vertical, $padding-horizontal, $font-size, $border-radius) {
+@mixin button-size(
+  $padding-vertical,
+  $padding-horizontal,
+  $font-size,
+  $border-radius
+) {
   padding: $padding-vertical $padding-horizontal;
   font-size: $font-size;
   border-radius: $border-radius;
+
   &.is-round {
     padding: $padding-vertical $padding-horizontal;
   }
