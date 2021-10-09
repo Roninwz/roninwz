@@ -1,6 +1,7 @@
 .DS_Store
-**/node_modules/
-**/dist/
+node_modules
+/dist
+
 
 # local env files
 .env.local
@@ -20,7 +21,3 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-
-# dumi包生成的文件
-.umi
-.umi-production
