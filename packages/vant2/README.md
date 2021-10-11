@@ -13,12 +13,14 @@ yarn 安装： `yarn add @roninwz-ui/vant2 --save`
 ## 使用
 
 ```js
-// 导入ui组件库
+// 先导入vant组件库
+import Vant from "vant";
+import "vant/lib/index.css";
+Vue.use(Vant);
+
+// 导入基于vant二次封装的组件库
 import RoninwzUIVant2 from "@roninwz-ui/vant2";
-
-import "@roninwz-ui/vant2/lib/theme/index.css"; // 导入RoninwzUI样式
-
-// 注册组件库
+import "@roninwz-ui/vant2/lib/theme/index.css"; // 导入@roninwz-ui/vant2样式
 Vue.use(RoninwzUIVant2);
 ```
 

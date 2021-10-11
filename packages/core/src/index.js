@@ -7,8 +7,6 @@ import Button from '../packages/component/button';
 import Tabs from '../packages/component/tabs'
 import TabPane from '../packages/component/tab-pane'
 
-
-
 const components = [
   Svg,
   Video,

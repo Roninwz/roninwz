@@ -1,5 +1,6 @@
 <template>
   <van-popup
+    class="ruler"
     :style="{ height: '40%',overflow:'hidden' }"
     :value="value"
     round

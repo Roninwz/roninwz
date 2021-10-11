@@ -1,7 +1,7 @@
 {
   "name": "@roninwz-ui/core",
-  "version": "0.0.1",
-  "description": "自定义适用于vue的ui核心组件库",
+  "version": "0.0.3",
+  "description": "自定义适用于vue的完全自主封装的ui组件库",
   "author": "Roninwz",
   "private": false,
   "main": "lib/@roninwz-ui-core.umd.min.js",
@@ -10,20 +10,14 @@
     "dev": "vue-cli-service serve",
     "build:lib": "vue-cli-service build --target lib --name @roninwz-ui-core --dest lib src/index.js",
     "build:theme": "gulp build --gulpfile src/style/gulpfile.js",
-    "build:docs": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "firstlog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "dependencies": {
-    "@roninwz-ui/element2": "^0.0.2",
-    "@roninwz-ui/vant2": "^0.0.2",
     "cheerio": "^1.0.0-rc.10",
     "core-js": "^3.6.5",
-    "cs-ruler": "^2.1.5",
-    "markdown-it-container": "^3.0.0",
     "vue": "^2.6.11",
-    "vue-markdown-loader": "^2.4.1",
     "vue-router": "^3.5.2"
   },
   "devDependencies": {
@@ -48,9 +42,7 @@
   "repository": "https://github.com/roninwz/roninwz-ui",
   "keywords": [
     "vue",
-    "ui库",
-    "element",
-    "vant"
+    "ui库"
   ],
   "eslintConfig": {
     "root": true,

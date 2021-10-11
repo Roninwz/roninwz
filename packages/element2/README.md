@@ -1,33 +1,27 @@
-# roninwz-ui
+# @roninwz-ui/element2
 
 ## 简介
 
-自定义基于 Vue.js 2.0 的前端 UI 组件库
-
-主要包含三个部分
-
-1. 完全自定义组件
-
-2. 基于 element 二次开发的组件
-
-3. 基于 vant 二次开发的组件
+自定义基于 element 二次封装的前端 UI 组件库
 
 ## 安装
 
-npm 安装：`npm i roninwz-ui --save`
+npm 安装：`npm i @roninwz-ui/element2 --save`
 
-yarn 安装： `yarn add roninwz-ui --save`
+yarn 安装： `yarn add @roninwz-ui/element2 --save`
 
 ## 使用
 
 ```js
-// 导入ui组件库
-import RoninwzUI from "roninwz-ui";
+// 先导入element组件库
+import ElementUI from "element-ui";
+import "element-ui/lib/theme-chalk/index.css";
+Vue.use(ElementUI);
 
-import "roninwz-ui/lib/theme/index.css"; // 导入RoninwzUI样式
-
-// 注册组件库
-Vue.use(RoninwzUI);
+// 导入二次封装的element组件库
+import RoninwzUIElement2 from "@roninwz-ui/element2";
+import "@roninwz-ui/element2/lib/theme/index.css"; // 导入RoninwzUI样式
+Vue.use(RoninwzUIElement2);
 ```
 
 ## 文档地址

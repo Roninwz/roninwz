@@ -32,7 +32,7 @@ module.exports = {
     // 添加要替换的 loader
     svgRule
       .test(/\.svg$/)
-      .include.add(resolve('examples/icons'))
+      .include.add(resolve('src/icons'))
       .end()
       .use('svg-sprite-loader')
       .loader('svg-sprite-loader')
@@ -102,6 +102,6 @@ module.exports = {
       })
   },
   configureWebpack: (config) => {
-    config.resolve.alias['@'] = resolve('examples')
+    config.resolve.alias['@'] = resolve('src')
   },
 }

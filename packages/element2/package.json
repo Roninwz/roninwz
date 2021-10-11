@@ -1,6 +1,6 @@
 {
   "name": "@roninwz-ui/element2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "自定义适用于element二次封装的ui组件库",
   "author": "Roninwz",
   "private": false,
@@ -10,7 +10,6 @@
     "dev": "vue-cli-service serve",
     "build:lib": "vue-cli-service build --target lib --name @roninwz-ui-element2 --dest lib src/index.js",
     "build:theme": "gulp build --gulpfile src/style/gulpfile.js",
-    "build:docs": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "firstlog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
