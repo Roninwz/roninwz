@@ -1,6 +1,6 @@
 {
   "name": "@roninwz-ui/element2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "自定义适用于element二次封装的ui组件库",
   "author": "Roninwz",
   "private": false,

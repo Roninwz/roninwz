@@ -16,6 +16,8 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "dependencies": {
+    "@roninwz-ui/element2": "^0.0.2",
+    "@roninwz-ui/vant2": "^0.0.2",
     "cheerio": "^1.0.0-rc.10",
     "core-js": "^3.6.5",
     "cs-ruler": "^2.1.5",
