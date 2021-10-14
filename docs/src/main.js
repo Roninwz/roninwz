@@ -23,8 +23,13 @@ Vue.use(Vant);
 
 // 导入基于vant二次封装的组件库
 import RoninwzUIVant2 from "@roninwz-ui/vant2";
-// import "@roninwz-ui/vant2/lib/theme/index.css"; // 导入@roninwz-ui/vant2样式
+import "@roninwz-ui/vant2/lib/theme/index.css"; // 导入@roninwz-ui/vant2样式
 Vue.use(RoninwzUIVant2);
+
+// 导入二次封装的element组件库
+import RoninwzUICore from "@roninwz-ui/core";
+// import "@roninwz-ui/core/lib/theme/index.css"; // 导入RoninwzUI样式
+Vue.use(RoninwzUICore);
 
 Vue.config.productionTip = false
 

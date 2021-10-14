@@ -1,7 +1,7 @@
 <template>
   <div  class="pg-index">
     <div class="index-container">
-      <p>Roninwz UI 组件库,仅供学习记录使用</p>
+      <p>个人 UI 组件库,仅供学习记录使用</p>
     </div>
     <div class="separate-panel">
       <div class="about">

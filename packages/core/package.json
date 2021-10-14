@@ -1,6 +1,6 @@
 {
   "name": "@roninwz-ui/core",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "自定义适用于vue的完全自主封装的ui组件库",
   "author": "Roninwz",
   "private": false,

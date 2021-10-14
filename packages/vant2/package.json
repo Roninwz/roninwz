@@ -1,6 +1,6 @@
 {
   "name": "@roninwz-ui/vant2",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "自定义适用于vant二次封装的ui组件库",
   "author": "Roninwz",
   "private": false,
