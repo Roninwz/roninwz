@@ -48,19 +48,15 @@ export default {
   },
   watch: {
     $route() {
-      switch (this.$route.name) {
-        case "core":
-          this.currentIndex = 0;
-          break;
-        case "vant2":
-          this.currentIndex = 1;
-          break;
-        case "element2":
-          this.currentIndex = 2;
-          break;
-        default:
-          this.currentIndex = -1;
-          break;
+      let routeName = this.$route.name;
+      if(routeName.includes('vant2')){
+        this.currentIndex = 1;
+      } else if(routeName.includes('element2')){
+        this.currentIndex = 2;
+      }else if(routeName.includes('core')){
+        this.currentIndex = 0;
+      } else{
+        this.currentIndex = -1;
       }
     },
   },

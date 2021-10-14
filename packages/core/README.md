@@ -13,7 +13,7 @@ yarn 安装： `yarn add @roninwz-ui/core --save`
 ## 使用
 
 ```js
-// 导入ui组件库
+// 导入核心ui组件库
 import RoninwzUICore from "@roninwz-ui/core";
 
 import "@roninwz-ui/core/lib/theme/index.css"; // 导入R@roninwz-ui/core样式

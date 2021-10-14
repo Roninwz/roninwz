@@ -24,6 +24,7 @@ Object.keys(navElement2Conf).forEach((header) => {
 
 let addComponent = (router) => {
   router.forEach((route) => {
+    let newRoute = { ...route }
     if (route.items) {
       addComponent(route.items)
       routes = routes.concat(route.items)
@@ -37,19 +38,22 @@ let addComponent = (router) => {
       // 完全自定义组件文档
       if (route.type === 'core') {
         route.component = r => require.ensure([], () =>
-          r(require(`../docs/core/${route.name}.md`)))
+          r(require(`../docs/core/${newRoute.name}.md`)))
+        route.name = 'core ' + route.name
         return
       }
       // 基于element二次封装分组件
       if (route.type === 'element2') {
         route.component = r => require.ensure([], () =>
-          r(require(`../docs/element2/${route.name}.md`)))
+          r(require(`../docs/element2/${newRoute.name}.md`)))
+        route.name = 'element2 ' + route.name
         return
       }
       // 基于vant二次封装的组件
       if (route.type === 'vant2') {
         route.component = r => require.ensure([], () =>
-          r(require(`../docs/vant2/${route.name}.md`)))
+          r(require(`../docs/vant2/${newRoute.name}.md`)))
+        route.name = 'vant2 ' + route.name
         return
       }
       // 其它md文档

@@ -36,18 +36,13 @@ export default {
   watch: {
     $route() {
       this.isIndex = this.$route.name === "index";
-      switch (this.$route.name) {
-        case "core":
-          this.navConf = coreNavConf;
-          break;
-        case "vant2":
-          this.navConf = vant2NavConf;
-          break;
-        case "element2":
-          this.navConf = element2NavConf;
-          break;
-        default:
-          break;
+      let routeName = this.$route.name;
+      if(routeName.includes('vant2')){
+        this.navConf = vant2NavConf;
+      } else if(routeName.includes('element2')){
+        this.navConf = element2NavConf;
+      } else{
+        this.navConf = coreNavConf;
       }
     },
   },

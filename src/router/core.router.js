@@ -7,7 +7,7 @@ export default {
     },
     {
       "name": "quickstart",
-      "path": "/core",
+      "path": "/core/quickstart",
       "desc": "快速开始",
       "type": "core"
     }

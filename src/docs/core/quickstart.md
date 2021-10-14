@@ -1,17 +1,27 @@
 # 快速上手
 
-本节将介绍如何在项目中使用 roninwz-ui。
+本节将介绍如何在项目中使用 @roninwz-ui/core。
+
+## 简介
+
+自定义基于 Vue.js 2.0 的完全自主封装的前端 UI 组件库@roninwz-ui/core
+
+## 安装
+
+npm 安装：`npm i @roninwz-ui/core --save`
+
+yarn 安装： `yarn add @roninwz-ui/core --save`
 
 ## 全局导入
 
 ```js
-// 导入ui组件库
-import RoninwzUI from "roninwz-ui";
+// 导入核心ui组件库
+import RoninwzUICore from "@roninwz-ui/core";
 
-import "roninwz-ui/lib/theme/index.css"; // 导入RoninwzUI样式
+import "@roninwz-ui/core/lib/theme/index.css"; // 导入R@roninwz-ui/core样式
 
 // 注册组件库
-Vue.use(RoninwzUI);
+Vue.use(RoninwzUICore);
 ```
 
 ## 特性
