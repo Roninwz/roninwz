@@ -4,7 +4,6 @@
   "description": "自定义适用于vue的ui核心组件库",
   "author": "Roninwz",
   "private": false,
-  "main": "lib/@roninwz-ui-core.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "dev": "vue-cli-service serve",

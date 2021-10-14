@@ -5,7 +5,7 @@
     </div>
     <div class="separate-panel">
       <div class="about">
-        <router-link :to="{name: 'giud'}">开始使用</router-link>
+        <router-link :to="{name: 'core'}">开始使用</router-link>
         <a target="_blank" class="btn-github" href="https://github.com/roninwz/roninwz-ui">GitHub</a>
       </div>
     </div>

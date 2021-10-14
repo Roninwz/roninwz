@@ -1,3 +1,20 @@
+
+<template>
+  <div class="page-footer">
+    <div class="footer-container">
+      <div class="text-left">
+        <p>author: roninwz</p>
+        <p>email: 1947914887@qq.com</p>
+        <p>
+          github:
+          <a href="https://github.com/roninwz"
+            >https://github.com/roninwz/roninwz-ui</a
+          >
+        </p>
+      </div>
+    </div>
+  </div>
+</template>
 <style lang="scss" scoped>
 .page-footer {
   padding: 30px 0 30px;
@@ -27,20 +44,3 @@
   }
 }
 </style>
-
-<template>
-  <div class="page-footer">
-    <div class="footer-container">
-      <div class="text-left">
-        <p>author: roninwz</p>
-        <p>email: 1947914887@qq.com</p>
-        <p>
-          github:
-          <a href="https://github.com/roninwz"
-            >https://github.com/roninwz/roninwz-ui</a
-          >
-        </p>
-      </div>
-    </div>
-  </div>
-</template>

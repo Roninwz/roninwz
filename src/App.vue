@@ -3,7 +3,7 @@
     <div>
       <main-header />
       <div v-if="!isIndex" class="container">
-        <side-nav class="nav" />
+        <side-nav class="nav" :config="navConf"/>
         <router-view class="view" />
       </div>
       <router-view v-else class="page" />
@@ -16,6 +16,9 @@
 import mainHeader from "./components/header";
 import mainFooter from "./components/footer";
 import sideNav from "./components/side-nav";
+import coreNavConf from './router/core.router.js'
+import vant2NavConf from './router/vant2.router.js'
+import element2NavConf from './router/element2.router.js'
 
 export default {
   components: {
@@ -27,11 +30,25 @@ export default {
     return {
       init: false,
       isIndex: true,
+      navConf: {}
     };
   },
   watch: {
     $route() {
       this.isIndex = this.$route.name === "index";
+      switch (this.$route.name) {
+        case "core":
+          this.navConf = coreNavConf;
+          break;
+        case "vant2":
+          this.navConf = vant2NavConf;
+          break;
+        case "element2":
+          this.navConf = element2NavConf;
+          break;
+        default:
+          break;
+      }
     },
   },
   mounted() {

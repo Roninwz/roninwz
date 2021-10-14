@@ -1,3 +1,38 @@
+<template>
+  <div class="side-nav">
+    <div v-for="title in (Object.keys(config))" v-bind:key="title.index" class="group-container">
+      <p class="side-nav-title">{{title}}</p>
+      <div class="side-nav-items" v-for="nav in config[title]" v-bind:key="nav.index">
+        <div v-if="nav.desc">
+          <router-link :class="$route.name===nav.name ? 'active' : ''" v-if="nav.name" :to="{name: nav.name}">{{nav.desc}}</router-link>
+          <p v-else class="side-nav-group">{{nav.desc}}</p>
+          <div v-for="item in nav.items" v-bind:key="item.index">
+            <router-link :to="{name: item.name}" :class="$route.name===item.name ? 'active' : ''" class="slid-nav-component">{{item.desc}}</router-link>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+// import navConf from '../router/nav.router.js'
+export default {
+  props: {
+    config: {
+      type: Object,
+      default: () => {
+        return {};
+      }
+    },
+  },
+  data () {
+    return {
+      // data: navConf
+    }
+  }
+}
+</script>
 <style lang="scss" type="text/scss">
   .side-nav {
     z-index: 99;
@@ -57,30 +92,3 @@
     }
   }
 </style>
-<template>
-  <div class="side-nav">
-    <div v-for="title in (Object.keys(data))" v-bind:key="title.index" class="group-container">
-      <p class="side-nav-title">{{title}}</p>
-      <div class="side-nav-items" v-for="nav in data[title]" v-bind:key="nav.index">
-        <div v-if="nav.desc">
-          <router-link :class="$route.name===nav.name ? 'active' : ''" v-if="nav.name" :to="{name: nav.name}">{{nav.desc}}</router-link>
-          <p v-else class="side-nav-group">{{nav.desc}}</p>
-          <div v-for="item in nav.items" v-bind:key="item.index">
-            <router-link :to="{name: item.name}" :class="$route.name===item.name ? 'active' : ''" class="slid-nav-component">{{item.desc}}</router-link>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</template>
-
-<script>
-import navConf from '../nav.config.json'
-export default {
-  data () {
-    return {
-      data: navConf
-    }
-  }
-}
-</script>
