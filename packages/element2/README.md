@@ -20,7 +20,7 @@ Vue.use(ElementUI);
 
 // 导入二次封装的element组件库
 import RoninwzUIElement2 from "@roninwz-ui/element2";
-import "@roninwz-ui/element2/lib/theme/index.css"; // 导入RoninwzUI样式
+import "@roninwz-ui/element2/lib/theme/index.css"; // 导入二次封装的element组件库样式
 Vue.use(RoninwzUIElement2);
 ```
 
@@ -45,3 +45,7 @@ gulp 打包 scss
 vue-cli3 初始化框架
 
 markdown-it-container 生成文档
+
+## 可参考文档
+
+可模仿组件库：<https://github.com/NLRX-WJC/Vue-Components-Library>

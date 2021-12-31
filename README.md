@@ -18,7 +18,7 @@ lerna 管理的私人 UI 库
 
 <https://roninwz.github.io/roninwz-ui>
 
-打包文档：`yarn build:docs`
+打包文档：`yarn build`
 
 ## 使用技术
 
@@ -29,3 +29,13 @@ gulp 打包 scss
 vue-cli3 初始化框架
 
 markdown-it-container 生成文档
+
+## 后续迭代规划
+
+按需加载功能
+
+添加 stylelint 和 eslint 规范
+
+国际化功能
+
+换肤功能
