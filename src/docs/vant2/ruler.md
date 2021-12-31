@@ -1,3 +1,12 @@
+---
+title: ruler
+date: 2021-12-31 17:39:06
+permalink: /pages/2bd45c/
+categories:
+  - vant2
+tags:
+  - 
+---
 # 尺子选择器
 
 ---

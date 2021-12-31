@@ -1,3 +1,12 @@
+---
+title: tabs
+date: 2021-12-31 17:38:55
+permalink: /pages/150a5e/
+categories:
+  - core
+tags:
+  - 
+---
 # Tabs 标签页
 
 ---

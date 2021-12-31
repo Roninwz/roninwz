@@ -1,3 +1,12 @@
+---
+title: dialog
+date: 2021-12-31 17:39:18
+permalink: /pages/ca7bb0/
+categories:
+  - element2
+tags:
+  - 
+---
 # dialog 弹窗
 
 ---

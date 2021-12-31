@@ -1,3 +1,13 @@
+---
+title: button
+date: 2021-12-31 17:38:55
+permalink: /pages/1f4703/
+categories:
+  - core
+tags:
+  -
+---
+
 # button 按钮
 
 ---
@@ -8,8 +18,11 @@
 
 ## 基础布局
 
+::: demo
+
+```html
 <div class="demo-block">
-    <div>
+  <div>
     <rz-button>默认按钮</rz-button>
     <rz-button type="primary">主要按钮</rz-button>
     <rz-button type="success">成功按钮</rz-button>
@@ -17,43 +30,40 @@
     <rz-button type="warning">警告按钮</rz-button>
     <rz-button type="danger">危险按钮</rz-button>
     <rz-button plain>朴素按钮</rz-button>
-    </div><br/>
-    <div>
+  </div>
+  <br />
+  <div>
     <rz-button type="primary" plain>主要按钮</rz-button>
     <rz-button type="success" plain>成功按钮</rz-button>
     <rz-button type="info" plain>信息按钮</rz-button>
     <rz-button type="warning" plain>警告按钮</rz-button>
     <rz-button type="danger" plain>危险按钮</rz-button>
-    </div><br/>
-    <div>
+  </div>
+  <br />
+  <div>
     <rz-button round>圆角按钮</rz-button>
     <rz-button type="primary" round>主要按钮</rz-button>
     <rz-button type="success" round>成功按钮</rz-button>
     <rz-button type="info" round>信息按钮</rz-button>
     <rz-button type="warning" round>警告按钮</rz-button>
     <rz-button type="danger" round>危险按钮</rz-button>
-    </div><br/>
-    <rz-button icon="rz-icon-search" circle></rz-button>
-    <rz-button type="primary" icon="rz-icon-edit" circle></rz-button>
-    <rz-button type="success" icon="rz-icon-check" circle></rz-button>
-    <rz-button type="info" icon="rz-icon-message" circle></rz-button>
-    <rz-button type="warning" icon="rz-icon-star-off" circle></rz-button>
-    <rz-button type="danger" icon="rz-icon-drzete" circle></rz-button>
+  </div>
+  <br />
+  <rz-button icon="rz-icon-search" circle></rz-button>
+  <rz-button type="primary" icon="rz-icon-edit" circle></rz-button>
+  <rz-button type="success" icon="rz-icon-check" circle></rz-button>
+  <rz-button type="info" icon="rz-icon-message" circle></rz-button>
+  <rz-button type="warning" icon="rz-icon-star-off" circle></rz-button>
+  <rz-button type="danger" icon="rz-icon-drzete" circle></rz-button>
 
   <script>
-  export default {
-    data () {
-      return {
-      }
-    }
-  }
+    export default {
+      data() {
+        return {};
+      },
+    };
   </script>
 </div>
-
-::: demo
-
-```html
-
 ```
 
 :::

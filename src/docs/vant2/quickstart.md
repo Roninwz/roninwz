@@ -1,3 +1,13 @@
+---
+title: 快速上手
+date: 2021-12-31 17:39:06
+permalink: /pages/e0125d/
+categories:
+  - vant2
+tags:
+  -
+---
+
 # 快速上手
 
 本节将介绍如何在项目中使用 @roninwz-ui/vant2。

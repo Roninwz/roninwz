@@ -1,3 +1,12 @@
+---
+title: video
+date: 2021-12-31 17:38:55
+permalink: /pages/ae9c53/
+categories:
+  - core
+tags:
+  - 
+---
 # video
 
 ---

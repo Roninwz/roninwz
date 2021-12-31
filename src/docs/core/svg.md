@@ -1,3 +1,13 @@
+---
+title: svg
+date: 2021-12-31 17:38:55
+permalink: /pages/3b56e0/
+categories:
+  - core
+tags:
+  -
+---
+
 # svg
 
 ---
@@ -8,9 +18,9 @@ svg 组件
 
 ## 前置条件
 
-1. 1.安装svg loader依赖`npm install svg-sprite-loader --save-dev`
+1. 1.安装 svg loader 依赖`npm install svg-sprite-loader --save-dev`
 
-2. 2.添加loader配置
+2. 2.添加 loader 配置
 
 ```js
  chainWebpack: (config) => {
@@ -37,42 +47,24 @@ svg 组件
   },
 ```
 
-3. 3.在使用svg的页面中导入svg图标
+3. 3.在使用 svg 的页面中导入 svg 图标
 
 ## 基础布局
-
-<div class="demo-block">
-  <!-- svg组件 -->
-  <RzSvg iconClass="titile" iconStyle="width:100px;height:100px;"/>
-  <script>
-  import "@/icons/svg/titile.svg";
-  export default {
-    data () {
-      return {
-      }
-    },
-    methods: {
-    }
-  }
-  </script>
-</div>
 
 ::: demo
 
 ```html
- <!-- svg组件 -->
-  <RzSvg iconClass="titile" iconStyle="width:100px;height:100px;"/>
-  <script>
-  import "@/icons/svg/titile.svg";
+<!-- svg组件 -->
+<RzSvg iconClass="titile" iconStyle="width:100px;height:100px;" />
+<script>
+  // import "@/icons/svg/titile.svg";
   export default {
-    data () {
-      return {
-      }
+    data() {
+      return {};
     },
-    methods: {
-    }
-  }
-  </script>
+    methods: {},
+  };
+</script>
 ```
 
 :::
@@ -83,4 +75,3 @@ svg 组件
 | --------- | ------------ | ------ | ------ | ------ |
 | iconClass | svg 图标名称 | string | —      | -      |
 | iconStyle | svg 图标样式 | string | —      | -      |
-
