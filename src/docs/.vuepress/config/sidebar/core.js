@@ -11,7 +11,10 @@ var coreCatalogArr = [
     title: "自定义组件",
     collapsable: false,
     children: [
-      'button'
+      'button',
+      'tabs',
+      'video',
+      'svg'
     ],
   },
 ];

@@ -3,7 +3,7 @@ home: true
 heroText: 个人 UI 组件库
 tagline: 🚀 仅供学习记录使用
 actionText: 开始使用 →
-actionLink: /core/
+actionLink: /pages/core/
 bannerBg: none
 features:
   - title: core

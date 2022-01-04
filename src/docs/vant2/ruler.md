@@ -5,8 +5,9 @@ permalink: /pages/2bd45c/
 categories:
   - vant2
 tags:
-  - 
+  -
 ---
+
 # 尺子选择器
 
 ---
@@ -16,42 +17,6 @@ tags:
 基于 vant 二次封装的尺子选择器
 
 ## 基础布局
-
-<div class="demo-block">
-    <!-- 尺子选择器 -->
-    <rz-button class="cell-box" @click="isShowRulerSelect = true">去选择</rz-button>
-    <van2-ruler
-      v-model="isShowRulerSelect"
-      title="体重"
-      :default-value="weight"
-      :ispoint="false"
-      unit="kg"
-      :max-num="200"
-      :min-num="10"
-      @closeShow="closeShowRuler"
-      @selectValue="selectValue"
-    />
-  <script>
-  export default {
-    data () {
-      return {
-        isShowRulerSelect: false, // 是否显示地址弹窗
-        weight: 20, // 地址
-      }
-    },
-    methods: {
-       // 尺子选择器
-      closeShowRuler() {
-        this.isShowRulerSelect = false;
-      },
-      // 选择孕周
-      selectValue(data) {
-        this.weight = data;
-      }
-    }
-  }
-  </script>
-</div>
 
 ::: demo
 

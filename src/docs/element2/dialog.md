@@ -5,8 +5,9 @@ permalink: /pages/ca7bb0/
 categories:
   - element2
 tags:
-  - 
+  -
 ---
+
 # dialog 弹窗
 
 ---
@@ -16,26 +17,6 @@ tags:
 基于 element 二次封装的弹窗
 
 ## 基础布局
-
-<div class="demo-block">
-    <rz-button type="primary" @click="isShowDialog = true" @sureClick="sureClick">点击</rz-button>
-    <el2-dialog :show.sync="isShowDialog" title="弹窗">
-    </el2-dialog>
-  <script>
-  export default {
-    data () {
-      return {
-        isShowDialog: false, // 是否显示弹窗
-      }
-    },
-    methods: {
-      sureClick() {
-        console.log("点击确定按钮");
-      }
-    }
-  }
-  </script>
-</div>
 
 ::: demo
 

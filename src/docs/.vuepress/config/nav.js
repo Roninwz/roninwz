@@ -2,9 +2,9 @@
 
 var nav = [
   { text: '首页', link: '/' },
-  { text: '电脑', link: '/core/' },
-  { text: '个人', link: '/vant2/' },
-  { text: '文章', link: '/element2/' },
+  { text: 'core', link: '/core/' },
+  { text: 'vant2', link: '/vant2/' },
+  { text: 'element2', link: '/element2/' },
   {
     text: '索引',
     link: '/archives/',
@@ -14,8 +14,8 @@ var nav = [
       { text: '归档', link: '/archives/' },
     ],
   },
-  { text: 'github', link: 'https://github.com/Roninwz' },
-  { text: 'gitee', link: 'https://gitee.com/roninwz' },
+  { text: 'github', link: 'https://github.com/Roninwz/roninwz-ui' },
+  { text: 'gitee', link: 'https://gitee.com/roninwz-ui' },
   // { text: 'ui库', link: 'https://roninwz.github.io/roninwz-ui/#/' },
 ];
 

@@ -1,7 +1,7 @@
 ---
 title: 核心 UI 组件库
 date: 2021-12-31 17:21:39
-permalink: /pages/745cce/
+permalink: /pages/core/
 categories:
 tags:
   -

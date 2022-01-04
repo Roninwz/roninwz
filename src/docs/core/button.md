@@ -21,7 +21,7 @@ tags:
 ::: demo
 
 ```html
-<div class="demo-block">
+<template>
   <div>
     <rz-button>默认按钮</rz-button>
     <rz-button type="primary">主要按钮</rz-button>
@@ -55,15 +55,15 @@ tags:
   <rz-button type="info" icon="rz-icon-message" circle></rz-button>
   <rz-button type="warning" icon="rz-icon-star-off" circle></rz-button>
   <rz-button type="danger" icon="rz-icon-drzete" circle></rz-button>
+</template>
 
-  <script>
-    export default {
-      data() {
-        return {};
-      },
-    };
-  </script>
-</div>
+<script>
+  export default {
+    data() {
+      return {};
+    },
+  };
+</script>
 ```
 
 :::

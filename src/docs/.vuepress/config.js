@@ -4,11 +4,9 @@ const nav = require('./config/nav.js');
 const path = require('path');
 module.exports = {
   logo: '/img/head.png', // 导航栏logo
-  // theme: 'roninwz',
   theme: 'vdoing', // v1.8.3
-  // theme: path.resolve(__dirname, '../../theme-vdoing/index.js'),
-  title: '放肆青春的博客',
-  description: '放肆青春的博客',
+  title: '个人 UI 组件库',
+  description: '个人 UI 组件库',
   base: '/',
   port: '10002',
   head: [
