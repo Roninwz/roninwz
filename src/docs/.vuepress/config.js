@@ -7,7 +7,7 @@ module.exports = {
   theme: 'vdoing', // v1.8.3
   title: '个人 UI 组件库',
   description: '个人 UI 组件库',
-  base: '/',
+  base: '/roninwz-ui/',
   port: '10002',
   head: [
   ],

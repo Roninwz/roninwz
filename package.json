@@ -7,7 +7,7 @@
   "scripts": {
     "serve": "vuepress dev src/docs",
     "dev": "vuepress dev src/docs",
-    "build": "vuepress build src/docs --dest ./docs",
+    "build": "vuepress build src/docs/ --dest ./docs",
     "firstlog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
